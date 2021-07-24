@@ -113,7 +113,7 @@ def load_data(city, month, day):
 
 
 def display_data(df):
-    """display raw data."""
+    """display raw data. Users could answer yes to continue look at next 5 lines of data and answer no to quit this function."""
     print_position = 0
     while True:
         display_value = input("\nWould you like to see raw data directly \n")
